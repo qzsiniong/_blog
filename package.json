@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git:push": "git add . && git commit -m 'blog' && git push -u origin main",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qzsiniong/_blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qzsiniong/_blog/issues"
+  },
+  "homepage": "https://github.com/qzsiniong/_blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
